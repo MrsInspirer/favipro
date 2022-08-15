@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign_up</title>
+    <link rel="stylesheet" href="sign_up.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <header >
+      <div class="main_nav_container" >
+        <div class="navbar0"><h1><img class="logo" src="images/logo.svg"></h1></div>
+        <div class="navbar1"><h2>Home</h2></div>
+        <div class="navbar2"><h2>About Us</h2></div>
+        <div class="navbar3"><h2>FAQs</h2></div>
+        <button class="btn1"><h2><a href="sign_in.html">Sign in</a></h2></button>
+        <button class="btn2"><h2>Sign up</h2></button>
+      </header>
+
+    <main>
+      <div class="sign_in">
+        <form id="form" action="#">
+          <h2 id="create_acct">Create an account</h2>
+          <br />
+          <div>
+            <label for="sign_up"></label>
+            <h3 id="favipro_free">Create a favipro account for free now!</h3><br/>
+            
+            <input id="sign_up" type="text" placeholder="Sign up with google" />
+          </div>
+
+          <h4 class="hr">or</h4>
+          <br />
+
+          <div class="name0">
+            <h3 id="u_name">Choose a username</h3>
+            <label for="username"></label>
+            <input id="username" type="text" placeholder="Johndoe@gmail.com" />
+          </div>
+
+          <div class="address">
+            <h3 id="email_address">Email Address</h3>
+            <label for="email"></label>
+            <input id="email" type="text" placeholder="Johndoe@gmail.com" />
+          </div>
+
+          <div class="psw">
+            <h3 id="pass">Password</h3>
+            <label for="password"></label>
+            <h2><img class="eye eye1" src="images/eye1.svg">
+              <img class="eye eye2" src="images/eye2.svg"></h2>
+            </div>
+            <input id="password" type="text" placeholder="Johndoe@gmail.com" />
+
+          <button id="btn"><h3>Sign Up</h3></button>
+
+          <div>
+            <h4 id="terms_cond">
+              By signing up, you agree to our <strong>Terms of Service</strong> and <strong>privacy
+              Policy.</strong>
+            </h4>
+          </div>
+
+          <h3 class="acct">Already have an account? <a href="sign_in.html">Sign in</a></h3>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
